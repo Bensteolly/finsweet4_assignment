@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+/* header style*/
+header{
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+    position: fixed;
+ }
+
+#header .headerbar{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    padding: 10px 10px;
+    background-color: white;
+}
+ header .logostyle{
+    font-size: 13px;
+ }
+
+nav{
+    display:flex;
+    align-items: center;
+    column-gap: 15px;
+ }
+
+nav ul{
+    display: flex;
+    column-gap: 30px;
+    border-right: 1px solid #E1E1E1;
+    padding-right: 10px;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    color:#FF6433;
+}
+
+nav .contact_design{
+    display: flex; 
+    align-items: center;
+    column-gap: 10px;
+}
+
+.contact_text{
+    display: block;
+}
+
+.text{
+    color: lightslategray;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.number{
+    font-size:12px;
+}
+
+/* parent styling*/
+
+.page-styling{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainpage{
+    height: 100vh;
+    width: 80%;
+    display: flex;
+}
+
+.btn2{
+    background-color: #FF6433;
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-size: 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    left: 40px;
+    margin-top: 20px;
+
+}
+/*main page styling*/
+main .mainpage .content_left{
+    width: 50%;
+    height: 80%;  
+}
+
+main .mainpage .content_left h1{
+    margin-top: 140px;
+    padding-left: 20px;
+    font-weight: 50px;
+    font-size: 40px;
+}
+
+main .mainpage .content_left button{
+    background-color: #FF6433;
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-size: 10px;
+    border-radius: 8px;
+    border: none;
+    margin: 20px;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+
+main .mainpage .content_left button:hover{
+    background-color: rgb(30, 136, 136);
+}
+
+main .mainpage .content_left .bottomtext{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    padding-left: 20px;
+}
+
+main .mainpage .content_left p{
+    font-family: manrope;
+    color: grey;
+    font-size: 10px;
+    line-height: 18px;
+}
+
+main .mainpage .content_left h6{
+    font-size:10px;
+}
+
+main .mainpage .content_right{
+    width: 50%;
+    height: 80%;
+    background-image: url("../image/Image.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+main .mainpage .content_right .quickservice{
+    position:absolute;
+    left: -80px;
+    top: 5%;
+}
+
+main .mainpage .content_right .ratings{
+    position: absolute;
+    right: -80px;
+    bottom: 5%;
+}
+
+/*section on we are taking car servicing serious*/
+#section1{
+    background-color: #E1E1E1;
+}
+
+#section1 .mainpage .content_left{
+    width: 50%;
+    height: 100%; 
+    padding-top: 40px;
+    justify-content: center; 
+    align-items: center;
+}
+
+#section1 .mainpage .content_left h1{
+    font-size: 220%;
+    margin-top: 30px;
+}
+
+#section1 .mainpage .content_left  a{
+    text-decoration: none;
+    color:black;
+    font-size: x-small;
+    padding-top: 500px;
+}
+
+.services{
+    display: flex;
+    justify-items: center; 
+    column-gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.services .services_right{
+    margin-top: 15px;
+}
+.services .services_right h2{
+    font-size: medium;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+
+.services .services_right p{
+    text-align: justify;
+    font-size: xx-small;
+    line-height: 15px;
+}
+
+#section1 .mainpage .content_right{
+    width: 50%;
+    height: 100%; 
+    margin-top: 40px;
+}
+
+#section1 .mainpage .content_right h1{
+    font-size: 180%;
+    font-weight: 180;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 3px;
+    border: 1px solid white;
+    padding-left: 15px;
+}
+
+
+/*section2 we follow a clear process styling*/
+
+#section2 .mainpage .content_left{
+    width: 50%;
+    height: 100%; 
+    padding-top: 40px;
+    margin-top: 40px;
+    justify-content: center; 
+    align-items: center;
+}
+
+#section2 .mainpage .content_left h2{
+    font-size: xx-large;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+#section2 .mainpage .content_left p{
+    font-size: x-small;
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+
+#section2 .mainpage .content_right{
+    width: 50%;
+    height: 100%; 
+    margin-top: 40px;
+}
+
+.number-rows{
+    padding-left: 30px;
+    column-gap: 20px;
+    display: flex;
+    justify-items: center;
+    margin-right: 20px;    
+}
+
+.left_icon{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.intext{
+    margin-bottom: 20px;
+}
+
+#section2 .content_right .number-rows h3{
+    margin: 10px 0px 10px;
+}
+
+#section2 .content_right .number-rows p{
+    font-size: 10px;
+    line-height: 18px;
+    margin-bottom: 10px;  
+}
+
+
+/*section 3 what we offer styling*/
+#section3{
+    background-color: lightgray;
+    width: 100%;
+    height: 100vh;
+}
+#section3 .what_we_offer{
+    width: 100%;
+    height: 90vh;
+    padding-bottom: 40px;
+}
+#section3 .heading-title{
+    text-align: center;
+    padding-top: 70px;
+    width: 100%;
+    font-size: x-large;
+}
+
+#section3 .cards{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    align-content: center;
+    padding-top: 20px;
+    margin: auto;
+}
+ #section3 .cards .card1{
+    background-color: #FF6433;
+    width: 180px;
+    height: 180px;
+    justify-content: center;
+    border: 1px solid #FF6433;
+    padding: 35px;
+}
+
+
+.card{
+    width: 180px;
+    height: 180px;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid white;
+    padding: 35px;
+}
+
+#section3 .cards .card-color{
+    background-color: #FF6433;
+}
+
+.cards h4{
+    font-size: small;   
+}
+
+#section3 .linked {
+    width: 77%;
+    margin-top: 15px;
+    display: flex;
+    column-gap: 5px;
+    justify-content: end;
+}
+
+#section3 a{
+    text-decoration: none;
+    color:black;
+    font-size: small;
+    margin-top: -5px;
+}
+
+/*section 4  get in touch with us styling*/
+#section4{
+    height: 70vh;
+    width: 100%;
+    background-color: #E1E1E1; 
+}
+
+#section4 .section-top{
+    height: 75%;
+    width: 100%;
+    display: flex;
+  }
+  
+#section4 .section-top .content_left-image{
+    width: 50%;
+    height: 100%;
+    background-image: url('../image/Image 1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+}
+  
+#section4 .section-top .content_left-image .intext {
+    height: 100%;
+    width: 70%;
+    background-color: #ff6433;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+    
+}
+  
+#section4 .section-top .content_left-image .intext h2{
+    color: white;
+    justify-items: center;
+    margin-top: 100px;
+    line-height: 35x;
+}
+
+#section4 .section-top .content_left-image .intext .btn2{
+    background-color: black;
+}
+#section4 .section-top .content_right-image {
+    width: 50%;
+    height: 100%;
+    background-image: url('../image/ovGrEUgrkyE.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.section-bottom {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap: 100px;
+}
+
+.ratings{
+    margin-top: -100px;
+}
+.section-bottom h1{
+    color:#661ce7;
+    font-size: 250%;
+}
