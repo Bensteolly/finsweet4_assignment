@@ -185,12 +185,12 @@ main .mainpage .content_right .ratings{
 /*section on we are taking car servicing serious*/
 #section1{
     background-color: #E1E1E1;
-    display: flex;
 }
 
 #section1 .mainpage .content_left{
     width: 50%;
     height: 100%; 
+    padding-top: 40px;
     justify-content: center; 
     align-items: center;
 }
@@ -212,11 +212,11 @@ main .mainpage .content_right .ratings{
     justify-items: center; 
     column-gap: 10px;
     align-items: center;
-    margin-bottom: 6px;
+    margin-bottom: 20px;
 }
 
 .services .services_right{
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .services .services_right h2{
     font-size: medium;
@@ -233,13 +233,14 @@ main .mainpage .content_right .ratings{
 #section1 .mainpage .content_right{
     width: 50%;
     height: 100%; 
+    margin-top: 40px;
 }
 
 #section1 .mainpage .content_right h1{
     font-size: 180%;
     font-weight: 180;
     margin-top: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 input{
     width: 100%;
@@ -345,7 +346,6 @@ input{
     padding: 35px;
 }
 
-
 .card{
     width: 180px;
     height: 180px;
@@ -449,7 +449,7 @@ input{
     color:#661ce7;
     font-size: 250%;
 }
-/*
+
 /*for mobile */
 @media screen and (max-width: 425px) {
     .page-styling{
@@ -596,6 +596,7 @@ input{
         display: flex;
         justify-content: center;
         align-items: flex-end;
+        padding-bottom: 15px;
     }
 
     .linked{
@@ -823,16 +824,25 @@ input{
     }
    
 /* main page styling */  
-  
+    
+    #section1 .mainpage .content_left{
+        padding-top: 10px;
+    
+    }
+
     #section1 .mainpage .content_left h1{
-        font-size: smaller;
-        font-weight: 100;
+        font-size: 180%;
+        font-weight: 100%;
         margin-top: 10px;
         
     }    
 
     #section1 .mainpage .content_left a {
         font-size: small;
+    }
+
+    .services{
+        margin-top: 20px;
     }
         
 /* section2 we follow a clear process styling */
