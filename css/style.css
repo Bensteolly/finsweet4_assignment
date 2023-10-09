@@ -754,11 +754,12 @@ input{
 
     #section4 .section-top .content_left-image {
         width: 100%;
-        flex-direction: column;
+        height: 100%;
     }
 
     #section4 .section-top .content_left-image .orangebox{
-        height: 30%;
+        height: 20%;
+        width: 50%;
     }
 
        #section4 .section-top .content_left-image .intext h2 {
@@ -851,10 +852,9 @@ input{
     }
 
     .mainpage {
-        width: 80%;
+        width: 90%;
         height: auto;
         display: flex;
-        background-color: aquamarine;
     }
     .btn2{
         background-color: #FF6433;
@@ -881,7 +881,7 @@ input{
 
     main .mainpage .content_left h1 {
         font-size: 25px;
-        margin-top: 100px;
+        margin-top: 120px;
     }
 
     main .mainpage .content_left button {
@@ -901,6 +901,7 @@ input{
 
     main .mainpage .content_left p {
         font-size: 10px;
+        text-align: center;
         padding-left: 70px;
         
     }
@@ -927,28 +928,12 @@ input{
         bottom: -8%;
         width: 300px;
     }
-
-    #section1 .mainpage .content_left{
-        padding-top: 10px;
     
-    }
-
-    #section1 .mainpage .content_left h1{
-        font-size: 180%;
-        font-weight: 100%;
-        margin-top: 10px;
-        
-    }    
-
-    #section1 .mainpage .content_left a {
-        font-size: small;
-    }
-
-    .services{
-        margin-top: 20px;
-    }
-        
+    
 /* section2 we follow a clear process styling */
+    #section2 .mainpage{
+        column-gap: 10px;
+    }
     #section2 .mainpage .content_left h2 {
         font-size: x-large; 
         line-height: 30px; 
@@ -958,7 +943,12 @@ input{
     #section2 .mainpage .content_left p {
         font-size: 10px; 
         line-height: 18px;
+        padding: 30px 0;
         margin-bottom: 10px;
+    }
+    
+    .intext{
+        margin-bottom: 20px;
     }
       
     #section3 .heading-title {
@@ -967,7 +957,37 @@ input{
     }
       
  /* section 4 get in touch with us styling */
-    
+
+ #section4 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;      
+}
+
+#section4 .section-top {
+    height: 100vh;
+    flex-direction: column;
+}
+
+#section4 .section-top .content_left-image {
+    width: 100%;
+    height: 50%;
+}
+
+#section4 .section-top .content_left-image .orangebox{
+    height: 100%;
+}
+
+   #section4 .section-top .content_left-image .intext h2 {
+    line-height: 35px;
+}
+
+
+#section4 .section-top .content_right-image {
+    width: 100%;
+    height: 30%;
+}
+
     #section4 .section-top .content_left-image .intext h2{
         padding-top: 50px;
         padding-bottom: 50px;
@@ -977,16 +997,16 @@ input{
       
     .section-bottom {
         text-align: center;
-        column-gap: 18px;
+        column-gap: 30px;
     }
 
     .ratings p{
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .section-bottom h1 {
         color: #661ce7;
-        font-size: 15px;
+        font-size: 24px;
     }
 
 }
